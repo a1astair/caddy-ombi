@@ -1,0 +1,7 @@
+ombi.razzormail.com {
+    reverse_proxy localhost:5000
+}
+https://ombi.razzormail.com {
+  tls self_signed
+  reverse_proxy localhost:5000
+}
